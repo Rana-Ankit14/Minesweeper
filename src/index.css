@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.minesweeper{
+  padding: 0;
+  margin: 50px auto;
+  border : 1px solid black;
+  width: 500px;
+ text-align: center;
+}
+
+div.boardHead{
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reset,.flag,.timer{
+  width: 55px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.reset{
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+div.row{
+  height: 25px;
+  display: flex;
+}
+div.cell{
+  width: 25px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+}
+div.cell:hover{
+  background-color: grey;
+}
+
